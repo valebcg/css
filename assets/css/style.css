@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado {
+    height: 4em;
+    padding: 4em;
+    background-image: url("../imgs/fondo\ chocolate.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+.encabezado h1 {
+    margin: 0px;
+    font-weight: 200px;
+}
+
+.productos {
+  display: flex;
+  padding-top: 80px;
+  width: 80%;
+  margin: auto;
+  padding: 1em;
+}
+.imagenesproductos {
+  margin-top: 30px;
+  width: 20em;
+  height: 15em;
+  border: solid 3px;
+  border-radius: 10px;
+}
+.descripciónproducto {
+    margin-left: 20px;
+    font-size: 2em;
+    margin-top: 7%;
+}
+
+footer {
+  background-color: #ffffff;
+  background: rgb(106, 63, 63);
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  line-height: 30px;
+}
+
